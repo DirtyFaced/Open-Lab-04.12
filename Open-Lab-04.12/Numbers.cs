@@ -6,7 +6,12 @@ namespace Open_Lab_04._12
     {
         public int MissingNum(int[] nums)
         {
-            throw new NotImplementedException();
+            int sventek = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                sventek = sventek + nums[i];
+            }
+            return 55 - sventek;
         }
     }
 }
